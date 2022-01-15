@@ -1,0 +1,43 @@
+'-------Calculater for Orbits of Space Debris-------'
+'---------Setting of Simulation Conditions----------'
+'File name containing the initial position and velocity of objects' 'input/debris.dat'
+'Time step of the orbital calculation = 1.0d0 /' 256.0d0
+'Span of orbital calculation [year] =' 0.0d0
+'Span of orbital calculation [day] =' 6.0d0
+'Output frequency: output once every N time =' 100
+'Order of Adams-Bashforth-Moulton Scheme' 14
+'The number of objects for the orbital calculation =' 1
+'Order of Geopotential expansion =' 4
+'Surface potential of the object =' -1.0d0
+'Epock (YMDHMS) =' 2007 3 20 0 0 0.0d0
+'Once semi-major axis is lower than this hight [km], debris is determined to reenter the atmosphere =' 140.0d0
+'Grid size of Earth suface electric potential [m] =' 1.0d0
+'IMF' -400.0 0.0 0.0
+'The end of the date described in the solar flux data file =' 54831
+'The number of ephemeris file of the Sun and the Moon =' 25
+Sun     Sun2005.dat	 Moon     Moon2005.dat
+Sun	Sun2006.dat	 Moon     Moon2006.dat
+Sun	Sun2007.dat	 Moon     Moon2007.dat
+Sun	Sun2008.dat	 Moon     Moon2008.dat
+Sun	Sun2009.dat	 Moon     Moon2009.dat
+Sun	Sun2010.dat	 Moon     Moon2010.dat
+Sun	Sun2011.dat	 Moon     Moon2011.dat
+Sun	Sun2012.dat	 Moon     Moon2012.dat
+Sun	Sun2013.dat	 Moon     Moon2013.dat
+Sun	Sun2014.dat	 Moon     Moon2014.dat
+Sun	Sun2015.dat	 Moon     Moon2015.dat
+Sun	Sun2016.dat	 Moon     Moon2016.dat
+Sun	Sun2017.dat	 Moon     Moon2017.dat
+Sun	Sun2018.dat	 Moon     Moon2018.dat
+Sun	Sun2019.dat	 Moon     Moon2019.dat
+Sun	Sun2020.dat	 Moon     Moon2020.dat
+Sun	Sun2021.dat	 Moon     Moon2021.dat
+Sun	Sun2022.dat	 Moon     Moon2022.dat
+Sun	Sun2023.dat	 Moon     Moon2023.dat
+Sun	Sun2024.dat	 Moon     Moon2024.dat
+Sun	Sun2025.dat	 Moon     Moon2025.dat
+Sun	Sun2026.dat	 Moon     Moon2026.dat
+Sun	Sun2027.dat	 Moon     Moon2027.dat
+Sun	Sun2028.dat	 Moon     Moon2028.dat
+Sun	Sun2029.dat	 Moon     Moon2029.dat
+
